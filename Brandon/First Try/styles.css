@@ -1,0 +1,50 @@
+body{
+    background-color:darkcyan;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ 
+ h1,h2,h3,h4,h5,h6{
+     text-align: center;
+ }
+ 
+ p{
+     color: brown;
+    /* font-size: 24px;*/
+ }
+ 
+ div h2 {
+     color: blueviolet;
+ }
+ 
+ /* losn ids son unicos por elemento , pero las Clases son repetibles */
+ 
+ #parrafo-especial{
+     font-size: 1.5em;
+     font-weight: bold;
+ }
+ 
+ .parrafo {
+ 
+     color: chartreuse;
+     font-style: italic;
+ }
+ 
+ 
+ /* este siguiente es para que se separe el link de la imagen ya que ese tipo de elemento siempre se pone uno a la par de otro*/
+ a , img {
+     display: block;
+ }
+ 
+ a{
+     margin: 50px 20px;
+     text-decoration: none; /*le quita el subrayado al link*/
+     color:black;
+ }
+ 
+ img{
+ width: 70%;
+ margin: auto;
+ 
+ }
+ 
+ 
